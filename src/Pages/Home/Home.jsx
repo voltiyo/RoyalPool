@@ -69,14 +69,14 @@ export default function Home() {
       document.querySelector("#second-img").style.opacity = '1' 
     }, 300);
     document.addEventListener("scroll", () => {
-      if (window.scrollY + window.innerHeight >= document.querySelector('#projects').getBoundingClientRect().top + window.scrollY) {
+      if (window.scrollY + window.innerHeight >= document.querySelector('#projects').getBoundingClientRect().top + window.scrollY + 200) {
         document.querySelector("#projects").style.transform = 'translateY(0px)'  
         document.querySelector("#projects").style.opacity = '1' 
       } else {
         document.querySelector("#projects").style.transform = 'translateY(100px)'  
         document.querySelector("#projects").style.opacity = '0' 
       }
-      if (window.scrollY + window.innerHeight >= document.querySelector('#reviews').getBoundingClientRect().top + window.scrollY) {
+      if (window.scrollY + window.innerHeight >= document.querySelector('#reviews').getBoundingClientRect().top + window.scrollY + 200) {
         document.querySelector("#reviews").style.transform = 'translateY(0px)'  
         document.querySelector("#reviews").style.opacity = '1' 
       } else {
@@ -116,7 +116,16 @@ export default function Home() {
 
 
       <div className="flex items-center justify-center mt-36 translate-y-[100px] opacity-0" id="second-img">
-        <div className="w-3/4 rounded-lg overflow-hidden h-[500px] flex items-center justify-center">
+        <div className="flex flex-col gap-4 items-start justify-start bg-white/20 py-4 px-8 rounded-lg">
+          <h1 className="text-center font-bold font-[Inter] text-3xl w-72">Quick Contact</h1>
+          <input type="text" className="bg-white text-gray-600 rounded-md px-4 py-1 text-xl w-80" placeholder="Enter your Name"/>
+          <input type="text" className="bg-white text-gray-600 rounded-md px-4 py-1 text-xl w-80" placeholder="Enter your Email"/>
+          <input type="text" className="bg-white text-gray-600 rounded-md px-4 py-1 text-xl w-80" placeholder="Enter your Phone"/>
+          <input type="text" className="bg-white text-gray-600 rounded-md px-4 py-1 text-xl w-80" placeholder="Enter the Subject"/>
+          <textarea className="bg-white text-gray-600 rounded-md px-4 py-1 h-[150px] w-80 resize-none outline-none border-0 text-xl" placeholder="Enter your Message"></textarea>
+          <button className="bg-green-600 font-bold px-4 py-2 rounded-lg">Send</button>
+        </div>
+        <div className="w-[53%] mx-24 h-fit rounded-lg overflow-hidden flex items-center justify-center">
           <img src="/pool3.png" className="w-full object-cover  hover:scale-[1.01] transition-all duration-500" />
         </div>
       </div>

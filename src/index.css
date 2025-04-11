@@ -18,6 +18,13 @@
 * {
   transition: all 1s;
 }
+input {
+  outline: none;
+  border: 1px solid transparent;
+}
+input:focus-within{
+  border-color: green;
+}
 a {
   font-weight: 500;
   color: #fff;
