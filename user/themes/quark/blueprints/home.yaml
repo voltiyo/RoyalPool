@@ -1,0 +1,196 @@
+title: Home Page
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+          title: Content
+
+          fields:
+            header.Maintitle:
+              type: textarea
+              label: Main title 1
+              markdown: true
+              description: Enter custom homepage main title 
+            header.MainTitleTwo:
+              type: textarea
+              label: Main title 2
+              markdown: true
+              description: Enter custom homepage main second title 
+            header.MainTitleThree:
+              type: textarea
+              label: Main title 3
+              markdown: true
+              description: Enter custom homepage main third title 
+            header.SecondTitleOne:
+              type: textarea
+              label: Second title 1
+              markdown: true
+              description: Enter custom homepage second title 
+            header.SecondTitleTwo:
+              type: textarea
+              label: Second title 2
+              markdown: true
+              description: Enter custom homepage second second title 
+            header.floating_image:
+              type: textarea
+              label: About Section Floating Image
+              markdown: true
+              description: Enter name of image
+            header.aboutUs_paraghraphOne:
+              type: editor
+              label: About Section First Paragraph
+              markdown: true
+              description: Enter Paragraph
+            header.aboutUs_paraghraphTwo:
+              type: editor
+              label: About Section Second Paragraph
+              markdown: true
+              description: Enter Paragraph
+            header.services_subtitle_one:
+              type: textarea
+              label: Services Subtitle one
+              markdown: true
+              description: Enter Text
+            header.services_subtitle_two:
+              type: textarea
+              label: Services Subtitle two
+              markdown: true
+              description: Enter Text
+              
+            header.service_one_image:
+              type: textarea
+              label: Service One Image
+              markdown: true
+              description: Enter Text
+            header.service_one_title:
+              type: textarea
+              label: Service One Title
+              markdown: true
+              description: Enter Text
+            header.service_one_description:
+              type: textarea
+              label: Service One Description
+              markdown: true
+              description: Enter Text
+              
+            header.service_two_image:
+              type: textarea
+              label: Service two Image
+              markdown: true
+              description: Enter Text
+            header.service_two_title:
+              type: textarea
+              label: Service two Title
+              markdown: true
+              description: Enter Text
+            header.service_two_description:
+              type: textarea
+              label: Service two Description
+              markdown: true
+              description: Enter Text
+              
+            header.service_three_image:
+              type: textarea
+              label: Service three Image
+              markdown: true
+              description: Enter Text
+            header.service_three_title:
+              type: textarea
+              label: Service three Title
+              markdown: true
+              description: Enter Text
+            header.service_three_description:
+              type: textarea
+              label: Service three Description
+              markdown: true
+              description: Enter Text
+              
+            header.service_four_image:
+              type: textarea
+              label: Service four Image
+              markdown: true
+              description: Enter Text
+            header.service_four_title:
+              type: textarea
+              label: Service four Title
+              markdown: true
+              description: Enter Text
+            header.service_four_description:
+              type: textarea
+              label: Service four Description
+              markdown: true
+              description: Enter Text
+              
+            header.service_five_image:
+              type: textarea
+              label: Service five Image
+              markdown: true
+              description: Enter Text
+            header.service_five_title:
+              type: textarea
+              label: Service five Title
+              markdown: true
+              description: Enter Text
+            header.service_five_description:
+              type: textarea
+              label: Service five Description
+              markdown: true
+              description: Enter Text
+              
+            header.service_six_image:
+              type: textarea
+              label: Service six Image
+              markdown: true
+              description: Enter Text
+            header.service_six_title:
+              type: textarea
+              label: Service six Title
+              markdown: true
+              description: Enter Text
+            header.service_six_description:
+              type: textarea
+              label: Service six Description
+              markdown: true
+              description: Enter Text
+
+              
+            header.post_services_youtube_video:
+              type: textarea
+              label: Video Link
+              markdown: true
+              description: Enter link of youtube video
+
+
+            header.testimonial_title:
+              type: textarea
+              label: Testimonial Title
+              markdown: true
+              description: Enter text
+
+            header.testimonial_video_one:
+              type: textarea
+              label: Youtube Testimonial Video One
+              markdown: true
+              description: Enter youtube link
+            header.testimonial_video_two:
+              type: textarea
+              label: Youtube Testimonial Video Two
+              markdown: true
+              description: Enter youtube link
+            header.testimonial_video_three:
+              type: textarea
+              label: Youtube Testimonial Video Three
+              markdown: true
+              description: Enter youtube link
+
+            header.custom_image:
+              type: pagemedia
+              label: Upload Image
+              description: Upload an image to use on the homepage.
+              preview_images: true

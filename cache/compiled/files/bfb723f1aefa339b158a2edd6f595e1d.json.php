@@ -1,0 +1,75 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
+    'filename' => 'C:/xampp/htdocs/user/data/flex/indexes/pages.json',
+    'modified' => 1748089172,
+    'size' => 1055,
+    'data' => [
+        'version' => '1.5',
+        'timestamp' => 1748089172,
+        'count' => 5,
+        'index' => [
+            '' => [
+                'key' => '',
+                'storage_key' => '',
+                'template' => NULL,
+                'storage_timestamp' => 1746702868,
+                'children' => [
+                    '01.home' => 1746702548,
+                    '02.about' => 1746702721,
+                    '03.landscape' => 1746702788,
+                    '04.contact' => 1746702868
+                ],
+                'checksum' => 'ba61a83ac3e8f224995b57cbb716d8f2'
+            ],
+            '01.home' => [
+                'key' => 'home',
+                'storage_key' => '01.home',
+                'template' => 'home',
+                'storage_timestamp' => 1747929840,
+                'markdown' => [
+                    '' => [
+                        'home' => 1747929840
+                    ]
+                ],
+                'checksum' => 'bf420feda1d48fe88caa10963e460e5a'
+            ],
+            '02.about' => [
+                'key' => 'about',
+                'storage_key' => '02.about',
+                'template' => 'about',
+                'storage_timestamp' => 1748084775,
+                'markdown' => [
+                    '' => [
+                        'about' => 1748084775
+                    ]
+                ],
+                'checksum' => '0928e3cbe642c4e09f9388a7c6c3858c'
+            ],
+            '03.landscape' => [
+                'key' => 'landscape',
+                'storage_key' => '03.landscape',
+                'template' => 'landscape',
+                'storage_timestamp' => 1748089172,
+                'markdown' => [
+                    '' => [
+                        'landscape' => 1748089172
+                    ]
+                ],
+                'checksum' => 'e95bee83542ea30e4c20eb345afce2cc'
+            ],
+            '04.contact' => [
+                'key' => 'contact',
+                'storage_key' => '04.contact',
+                'template' => 'default',
+                'storage_timestamp' => 1747916107,
+                'markdown' => [
+                    '' => [
+                        'default' => 1747916107
+                    ]
+                ],
+                'checksum' => 'ccd3403040c799c412d16729b4164754'
+            ]
+        ]
+    ]
+];

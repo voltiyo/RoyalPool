@@ -1,0 +1,9 @@
+version: '1.2'
+timestamp: 1748087882
+count: 1
+index:
+  admin:
+    storage_key: admin
+    storage_timestamp: 1748087882
+    key: admin
+    email: pablotester044@gmail.com

@@ -1,0 +1,347 @@
+title: About Page
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+          title: Content
+
+          fields:
+            section1:
+              type: section
+              title: About Section
+              underline: true
+            header.AboutDescription:
+              type: textarea
+              label: About Description
+              help: Enter a paragraph describing the company
+            
+            section2:
+              type: section
+              title: Principles Section
+              underline: true
+            header.principle1_svg:
+              type: textarea
+              label: first principle svg
+              help: Enter an svg code for the icon
+            header.principle1_title:
+              type: text
+              label: first principle title
+              help: Enter a title for the first principle
+            header.principle1_description:
+              type: textarea
+              label: first principle description
+              help: Enter a description for the first principle
+              
+            header.principle2_svg:
+              type: textarea
+              label: second principle svg
+              help: Enter an svg code for the icon
+            header.principle2_title:
+              type: text
+              label: second principle title
+              help: Enter a title for the second principle
+            header.principle2_description:
+              type: textarea
+              label: second principle description
+              help: Enter a description for the second principle
+
+            header.principle3_svg:
+              type: textarea
+              label: third principle svg
+              help: Enter an svg code for the icon
+            header.principle3_title:
+              type: text
+              label: third principle title
+              help: Enter a title for the third principle
+            header.principle3_description:
+              type: textarea
+              label: third principle description
+              help: Enter a description for the third principle
+
+
+            section3:
+              type: section
+              title: Big Image
+              underline: true
+            header.big_image:
+              type: file
+              accept: 
+                - image/*
+              label: "Big Image File"
+              multiple: false
+              destination: 'theme://media'
+
+              
+              
+            section4:
+              type: section
+              title: Section 4
+              underline: true
+            
+            header.section4_title_one:
+              type: text
+              label: First Title
+            header.section4_description_one:
+              type: textarea
+              label: First Paragraph
+            
+            header.section4_title_two:
+              type: text
+              label: Second Title
+            header.section4_description_two:
+              type: textarea
+              label: Second Paragraph
+
+            header.section_4_image:
+              type: file
+              accept: 
+                - image/*
+              label: "section 4 image file"
+              multiple: false
+              destination: 'theme://media'
+
+
+            section5:
+              type: section
+              title: Choose Us
+              underline: true
+            header.choose_us_description:
+              type: textarea
+              label: Description
+              help: Enter a description for the choose us section
+            
+            header.service_one:
+              type: section
+              title: First Service
+            header.service_one_svg:
+              type: textarea
+              label: Icon
+              help: Enter Svg Code For The Service
+            header.service_one_title:
+              type: text
+              label: Title
+              help: Enter a header for the service
+            header.service_one_description:
+              type: text
+              label: Description
+              help: Enter a description for the service
+
+            header.service_two:
+              type: section
+              title: Second Service
+            header.service_two_svg:
+              type: textarea
+              label: Icon
+              help: Enter Svg Code For The Service
+            header.service_two_title:
+              type: text
+              label: Title
+              help: Enter a header for the service
+            header.service_two_description:
+              type: text
+              label: Description
+              help: Enter a description for the service
+
+            header.service_three:
+              type: section
+              title: Third Service
+            header.service_three_svg:
+              type: textarea
+              label: Icon
+              help: Enter Svg Code For The Service
+            header.service_three_title:
+              type: text
+              label: Title
+              help: Enter a header for the service
+            header.service_three_description:
+              type: text
+              label: Description
+              help: Enter a description for the service
+
+            header.service_four:
+              type: section
+              title: Fourth Service
+            header.service_four_svg:
+              type: textarea
+              label: Icon
+              help: Enter Svg Code For The Service
+            header.service_four_title:
+              type: text
+              label: Title
+              help: Enter a header for the service
+            header.service_four_description:
+              type: text
+              label: Description
+              help: Enter a description for the service
+
+
+            section6:
+              type: section
+              title: Video Section
+              underline: true
+
+            video_one:
+              type: section
+              title: First Video
+            header.video_one_image:
+              type: file
+              accept: 
+                - image/*
+              label: "image file"
+              multiple: false
+              destination: 'theme://media'
+            header.video_one_link:
+              type: text
+              label: Youtube Link
+
+            video_two:
+              type: section
+              title: Second Video
+            header.video_two_image:
+              type: file
+              accept: 
+                - image/*
+              label: "image file"
+              multiple: false
+              destination: 'theme://media'
+            header.video_two_link:
+              type: text
+              label: Youtube Link
+
+            section7:
+              type: section
+              title: Skills
+              underline: true
+            header.skills_image:
+              type: file
+              accept: 
+                - image/*
+              label: "image file "
+              multiple: false
+              destination: 'theme://media'
+
+            header.skill_one:
+              type: section
+              title: First skill
+            header.skill_one_title:
+              type: text
+              label: Skill Name
+            header.skill_one_scale:
+              type: text
+              label: skill scale on 100
+
+            header.skill_two:
+              type: section
+              title: Second skill
+            header.skill_two_title:
+              type: text
+              label: Skill Name
+            header.skill_two_scale:
+              type: text
+              label: skill scale on 100
+
+            header.skill_three:
+              type: section
+              title: Third skill
+            header.skill_three_title:
+              type: text
+              label: Skill Name
+            header.skill_three_scale:
+              type: text
+              label: skill scale on 100
+
+            header.skill_four:
+              type: section
+              title: Fourth skill
+            header.skill_four_title:
+              type: text
+              label: Skill Name
+            header.skill_four_scale:
+              type: text
+              label: skill scale on 100
+
+            header.skill_five:
+              type: section
+              title: Fifth skill
+            header.skill_five_title:
+              type: text
+              label: Skill Name
+            header.skill_five_scale:
+              type: text
+              label: skill scale on 100
+
+            section8:
+              type: section
+              title: Why Choose Us
+              underline: true
+
+            reason_one:
+              type: section
+              title: First Reason
+            header.reason_one_svg:
+              type: textarea
+              label: icon
+              help: Enter svg code for icon
+            header.reason_one_description:
+              type: text
+              label: description
+            
+            reason_two:
+              type: section
+              title: Second Reason
+            header.reason_two_svg:
+              type: textarea
+              label: icon
+              help: Enter svg code for icon
+            header.reason_two_description:
+              type: text
+              label: description
+            
+            reason_three:
+              type: section
+              title: Third Reason
+            header.reason_three_svg:
+              type: textarea
+              label: icon
+              help: Enter svg code for icon
+            header.reason_three_description:
+              type: text
+              label: description
+            
+            reason_four:
+              type: section
+              title: Fourth Reason
+            header.reason_four_svg:
+              type: textarea
+              label: icon
+              help: Enter svg code for icon
+            header.reason_four_description:
+              type: text
+              label: description
+            
+            section9:
+              type: section
+              title: Clients Recommendations
+              underline: true
+          
+            header.reco_one:
+              type: textarea
+              label: First Recommendation
+          
+            header.reco_two:
+              type: textarea
+              label: Second Recommendation
+          
+            header.reco_three:
+              type: textarea
+              label: Thrid Recommendation
+          
+            header.reco_four:
+              type: textarea
+              label: Fourth Recommendation

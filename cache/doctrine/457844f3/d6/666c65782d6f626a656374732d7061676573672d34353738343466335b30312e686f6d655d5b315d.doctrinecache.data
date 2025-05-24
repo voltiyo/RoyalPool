@@ -1,0 +1,37 @@
+1748088603
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"home";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:36:{s:5:"title";s:4:"Home";s:8:"template";s:4:"home";s:9:"Maintitle";s:53:"Unwind And Reconnect With The Things That Matter Most";s:12:"MainTitleTwo";s:19:"Landscaping Company";s:14:"MainTitleThree";s:34:"Swimming Pool Contractors in Dubai";s:14:"SecondTitleOne";s:34:"RoyalPool Create Arts in you Yard!";s:14:"SecondTitleTwo";s:56:"This isn’t Landscape Design. This is Lifestyle Design.";s:14:"floating_image";s:11:"welcome.png";s:21:"aboutUs_paraghraphOne";s:354:"RoyalPool is specialized in full-service design & build, authority approvals, maintenance and renovation services of swimming pools, landscaping and home interiors in Dubai for over 25 years. We are a professional company with having an incredibly talented group of professionals, with an innovative approach, detailing, and relevant Industrial exposure.";s:21:"aboutUs_paraghraphTwo";s:319:"Discover the leaders in creating stunning outdoor spaces and luxurious swimming pools in Dubai. Our expert team specializes in transforming ordinary landscapes into extraordinary havens of beauty and relaxation. From lush gardens to captivating pools, we bring your outdoor dreams to life with expertise and creativity.";s:21:"services_subtitle_one";s:94:"We create a contemporary design for a modern lifestyle as per our client’s needs and tastes.";s:21:"services_subtitle_two";s:88:"We do design for exterior as well as stunning home interiors. Our design stage includes.";s:17:"service_one_image";s:17:"swimming-pool.jpg";s:17:"service_one_title";s:13:"Swimming Pool";s:23:"service_one_description";s:94:"We create a contemporary design for a modern lifestyle as per our client’s needs and tastes.";s:17:"service_two_image";s:16:"outdoor-amen.jpg";s:17:"service_two_title";s:17:"Outdoor Amenities";s:23:"service_two_description";s:97:"With us, resort-style amenities are simply part of your daily routine. We build superior outdoor.";s:19:"service_three_image";s:17:"water-feature.jpg";s:19:"service_three_title";s:14:"Water Features";s:25:"service_three_description";s:89:"Water provides the tranquility you need from the stressful environments in which we live.";s:18:"service_four_image";s:6:"M1.jpg";s:18:"service_four_title";s:16:"Soft Landscaping";s:24:"service_four_description";s:101:"We are experienced and knowledgeable, creating just the right environment with palms, trees, and more";s:18:"service_five_image";s:29:"IRRIGATION-SYSTEM-PHOTO-1.jpg";s:18:"service_five_title";s:17:"Irrigation System";s:24:"service_five_description";s:100:"Installing an Irrigation system is a process that involves digging trenches, running pipe, and more.";s:17:"service_six_image";s:18:"LIGHT-BANNER-1.jpg";s:17:"service_six_title";s:18:"Landscape Lighting";s:23:"service_six_description";s:116:"Accent your gardens with lighting. Different from tree lights, this addition will create a night-time focal point...";s:27:"post_services_youtube_video";s:28:"https://youtu.be/ohf-M24F3aM";s:17:"testimonial_title";s:26:"Our Customer Speaks for us";s:21:"testimonial_video_one";s:28:"https://youtu.be/k_2sNM9DNCs";s:21:"testimonial_video_two";s:28:"https://youtu.be/nY-iA79I3uU";s:23:"testimonial_video_three";s:48:"https://youtu.be/x83NtvhC9PY?si=37wZU_1RX7L19Pmr";s:12:"custom_image";s:120:"welcome.png,swimming-pool.jpg,outdoor-amen.jpg,water-feature.jpg,M1.jpg,IRRIGATION-SYSTEM-PHOTO-1.jpg,LIGHT-BANNER-1.jpg";}s:11:"frontmatter";s:2953:"title: Home
+template: home
+Maintitle: 'Unwind And Reconnect With The Things That Matter Most'
+MainTitleTwo: 'Landscaping Company'
+MainTitleThree: 'Swimming Pool Contractors in Dubai'
+SecondTitleOne: 'RoyalPool Create Arts in you Yard!'
+SecondTitleTwo: 'This isn’t Landscape Design. This is Lifestyle Design.'
+floating_image: welcome.png
+aboutUs_paraghraphOne: 'RoyalPool is specialized in full-service design & build, authority approvals, maintenance and renovation services of swimming pools, landscaping and home interiors in Dubai for over 25 years. We are a professional company with having an incredibly talented group of professionals, with an innovative approach, detailing, and relevant Industrial exposure.'
+aboutUs_paraghraphTwo: 'Discover the leaders in creating stunning outdoor spaces and luxurious swimming pools in Dubai. Our expert team specializes in transforming ordinary landscapes into extraordinary havens of beauty and relaxation. From lush gardens to captivating pools, we bring your outdoor dreams to life with expertise and creativity.'
+services_subtitle_one: 'We create a contemporary design for a modern lifestyle as per our client’s needs and tastes.'
+services_subtitle_two: 'We do design for exterior as well as stunning home interiors. Our design stage includes.'
+service_one_image: swimming-pool.jpg
+service_one_title: 'Swimming Pool'
+service_one_description: 'We create a contemporary design for a modern lifestyle as per our client’s needs and tastes.'
+service_two_image: outdoor-amen.jpg
+service_two_title: 'Outdoor Amenities'
+service_two_description: 'With us, resort-style amenities are simply part of your daily routine. We build superior outdoor.'
+service_three_image: water-feature.jpg
+service_three_title: 'Water Features'
+service_three_description: 'Water provides the tranquility you need from the stressful environments in which we live.'
+service_four_image: M1.jpg
+service_four_title: 'Soft Landscaping'
+service_four_description: 'We are experienced and knowledgeable, creating just the right environment with palms, trees, and more'
+service_five_image: IRRIGATION-SYSTEM-PHOTO-1.jpg
+service_five_title: 'Irrigation System'
+service_five_description: 'Installing an Irrigation system is a process that involves digging trenches, running pipe, and more.'
+service_six_image: LIGHT-BANNER-1.jpg
+service_six_title: 'Landscape Lighting'
+service_six_description: 'Accent your gardens with lighting. Different from tree lights, this addition will create a night-time focal point...'
+post_services_youtube_video: 'https://youtu.be/ohf-M24F3aM'
+testimonial_title: 'Our Customer Speaks for us'
+testimonial_video_one: 'https://youtu.be/k_2sNM9DNCs'
+testimonial_video_two: 'https://youtu.be/nY-iA79I3uU'
+testimonial_video_three: 'https://youtu.be/x83NtvhC9PY?si=37wZU_1RX7L19Pmr'
+custom_image: 'welcome.png,swimming-pool.jpg,outdoor-amen.jpg,water-feature.jpg,M1.jpg,IRRIGATION-SYSTEM-PHOTO-1.jpg,LIGHT-BANNER-1.jpg'";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:4:"home";s:11:"storage_key";s:7:"01.home";s:8:"template";s:4:"home";s:17:"storage_timestamp";i:1747929840;s:8:"markdown";a:1:{s:0:"";a:1:{s:4:"home";i:1747929840;}}s:8:"checksum";s:32:"bf420feda1d48fe88caa10963e460e5a";}}
